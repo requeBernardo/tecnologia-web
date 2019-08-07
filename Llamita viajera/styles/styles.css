@@ -1,0 +1,72 @@
+    body{
+        background-color: rgb(38,60,91);
+    }
+
+    .title{
+        color : rgb(254,179,0);        
+    }
+    h2{
+        color: rgb(255,231,48)
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation nav{
+        width: 90%;        
+        max-width: 1100px;
+        background-color: brown;
+        margin: 40px auto;
+    }
+    .navigation nav > ul{
+        list-style: none outside none;
+        position: relative;
+    }
+    .navigation nav > ul > li{
+        display: inline-block;
+    }
+    .navigation nav > ul > li > a{
+        color : #ffffff;
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .navigation nav > ul > li >a span{
+        font-size: 25px;
+        position: absolute;
+        bottom: -8px;
+        display: none;
+    }
+    .navigation nav > ul > li:hover span{
+        display: block;
+    }
+    .navigation nav ul li .submenu{
+        background : #ffffff;
+        padding: 20px;
+        position: absolute;
+        display: none;
+    }
+    .navigation nav ul li:hover .submenu{
+        display: flex;
+    }
+
+    .navigation nav ul li .submenu .submenu-items{
+        margin: 0 20px;
+    }
+
+    .navigation nav ul li .submenu .submenu-items p{
+        font-weight: 600;
+        display: block;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #565656;
+    }
+
+    #banner{
+        width: 100%;
+        
+    }
+    #img_banner{
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 1600px;
+    }
