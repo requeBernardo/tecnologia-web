@@ -1,9 +1,14 @@
 body{
     font-family: georgia, times, serif;
-    color: #333;
+    color: #1F3C88;
     font-size: 1.3rem;
     line-height: 1.6em;
     margin: 0;
+    background: #1E90FF;
+}
+
+#banner{
+    width: 100%;
 }
 
 h1{
@@ -21,8 +26,8 @@ p{
     margin: 0 auto;
 }
 
-.header{
-    background: #333;
+.navigation{
+    background: #000080;
     color: white;
     padding: 2rem 0;
     position: fixed;
@@ -31,8 +36,11 @@ p{
     right: 0;
 }
 
+.header{
+    width: 100%;
+}
 .header a{
-    color: white;
+    color: #CEDDEF;
     text-decoration: none;
 }
 
@@ -40,6 +48,11 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
 }
 
 .navigation ul{
@@ -60,7 +73,7 @@ p{
 }
 
 .navigation ul li a:hover{
-    color: #4a4a4a;
+    background: #5893D4;
 }
 
 .main{
@@ -68,9 +81,20 @@ p{
 }
 
 @media only screen and (max-width: 767px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
     .navigation{
         width: 100%;
         margin-top: 1rem;
+    }
+    .navigation ul{
+        display: none;   
+    }
+    .navigation ul.show{
+        display: block;   
     }
     .navigation ul li{
         display: block;
