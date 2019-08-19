@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 .logo-container {
+    position: relative;
     width: 100px;
     height: 100px;
-    position: absolute;
-    left: 60px;
+    left: 0;
     margin: 0 auto;
   }
 .div-img {
@@ -34,11 +34,10 @@
   -o-transition: all 500ms ease-in-out;
 }
 .div-img .text {
-  font-family: 'Open Sans';
   position: absolute;
+  font-family: 'Open Sans';
   z-index: -1;
   display: block;
-  height: 50%;
   top: 50%;
   left: 0;
   padding-left: 5px;
@@ -56,10 +55,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  /*dim the background*/
+  background-color: rgba(0, 0, 0, 0.596);
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 0.5s;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -ms-transition: opacity 1s ease-in-out;

@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:rgb(56, 127, 175);
+    background-color: rgba(133, 209, 205, 0.678);
     color: whitesmoke;
 }
 
