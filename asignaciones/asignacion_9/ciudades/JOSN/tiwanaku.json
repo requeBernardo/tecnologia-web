@@ -1,0 +1,10 @@
+{
+    "City" : "La Paz",
+    "Place" : "Tiwanaku",
+    "members" : [
+      {
+        "place" : "Tiwanaku",
+        "Description" : "Tiahuanaco o Tiwanaku es una antigua ciudad arqueológica, capital del Estado tiahuanacota, ubicada 15 kilómetros al sudeste del lago Titicaca en el departamento de La Paz al oeste de Bolivia. Tiahuanaco fue el centro de la civilización tiahuanaco, una cultura preincaica que basaba su economía en la agricultura, la ganadería y la arquitectura, y que abarcó los territorios de la meseta del Collao, entre el oeste de Bolivia, suroeste de Perú, el norte de Argentina y el norte de Chile, regiones desde las cuales irradió su influencia tecnológica y religiosa hacia otras civilizaciones contemporáneas a ella. La ciudad de Tiahuanaco se caracteriza por su arquitectura decorada con relieves y planos incisos colocados sobre estelas; está compuesta por siete construcciones arquitectónicas importantes: Kalasasaya, templete semisubterráneo, pirámide de Akapana, Puerta del Sol y Puma Punku, también grandes pirámides y esculturas."
+      }
+    ]
+  }
