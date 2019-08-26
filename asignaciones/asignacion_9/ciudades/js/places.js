@@ -19,7 +19,7 @@ function info() {
         information.appendChild(myH1);
 
         var myPara = document.createElement('p');
-        myPara.textContent = 'Descripcion: ' + jsonObj['descripcion'];
+        myPara.textContent = 'Descripcion: ' + jsonObj['description'];
         information.appendChild(myPara);
     }
 }
