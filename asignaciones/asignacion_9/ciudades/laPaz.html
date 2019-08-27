@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/small_view.css">
     <link rel="stylesheet" type="text/css" href="css/logo.css">
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel = "stylesheet" href = "fonts/fontello-450542f5/fontello-450542f5/css/fontello.css">
     <link rel="icon" type="image/png" href="">
 </head>
 <body>
@@ -58,17 +59,22 @@
                 <p>Provinicia central de la ciudad de La Paz.</p>
             </div>
             <div class="card">
-                <img src="la Paz/tiwanaku.png" alt="tiwanaku" onclick="info()">
+                <img id="open-popup" src="la Paz/tiwanaku.png" alt="tiwanaku">
                 <h4>Tiwanaku</h4>
                 <p>Ruinas de una cultura Pre-Hispánica.</p>
             </div>
         </div>
-        <div id="information"></div>
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <a href="#" id="close-popup" class="close-popup"><i class="icon-cancel"></i></a>
+                <div class="information"></div>
+            </div>
+        </div>
     </main>
     <footer>
+        <script src="js/popup.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="js/logo.js"></script>
-        <script src="js/places.js"></script>
         <div class="foot">
             <script src="js/time.js"></script>
             <br>&copy;2019 Bryan Magne & Bernardo Reque - Location: Bolivia
