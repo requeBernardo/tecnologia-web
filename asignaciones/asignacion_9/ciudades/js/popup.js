@@ -8,6 +8,7 @@ var information = document.getElementById('information');
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
+
 request.onload = function () {
     var place = request.response;
     populateinformation(place);
