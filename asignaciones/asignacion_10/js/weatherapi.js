@@ -2,7 +2,7 @@ let weatherRequest = new XMLHttpRequest ();
 // URL http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}
 // APIKEY: ###################
 // Identificación de Preston: 5604473
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=3911925&units=imperial&APPID=61d21ebc5ce74da5540c27ee619264cd'
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=3911925&units=metric&APPID=61d21ebc5ce74da5540c27ee619264cd'
 weatherRequest.open ('GET', apiURLstring, true);
 weatherRequest.send ();
 /* Para esperar a que se cargue el objeto de solicitud, use el método onload para
