@@ -12,13 +12,23 @@ body{
     width:100%;
 }
 
+.weather{
+    color: #000000;
+}
+
+h3{
+    color: #000000;
+}
+
 h1{
     font-size: 2rem;
     line-height: 1.3em;
+    color: #000000;
 }
 
 p{
     margin-bottom: 1.6em;
+    color: #000000;
 }
 
 .container{
@@ -40,6 +50,7 @@ p{
 .header{
     width: 100%;
 }
+
 .header a{
     color: #CEDDEF;
     text-decoration: none;
@@ -82,7 +93,6 @@ p{
     padding-top: 12rem;
     margin-bottom: 100px;
 }
-
 
 .foot{
     background: #000080;
