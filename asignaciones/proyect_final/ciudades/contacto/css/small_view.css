@@ -1,0 +1,34 @@
+@media only screen and (max-width: 767px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation{
+        width: 100%;
+        top: 0;
+    }
+    .navigation ul{
+        
+        display: none;   
+    }
+    .navigation ul.show{
+        display: block;   
+    }
+    .navigation ul li{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover{
+        color: #4a4a4a;
+    }
+    
+    
+}

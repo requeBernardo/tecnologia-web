@@ -30,7 +30,7 @@
                     <li><a href="laPaz.html">La Paz</a></li>
                     <li><a href="cochabamba.html">Cochabamba</a></li>
                     <li><a href="santaCruz.html">Santa Cruz</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="contacto/contacto.html">Reportar problema</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,28 +47,35 @@
         <h3>Ingresa a una de estas imágenes y descubre más acerca de los lugares turísticos de Cochabamba.</h3>
         <div class="container_img">
             <div class="card">
-                <img src="cochabamba/arani.png" alt="arani">
+                <img id="open-popupu" src="cochabamba/arani.png" alt="arani">
                 <h4>Arani</h4>
                 <p>Provincia de Cochabamba donde se desgusta diferentes platos típicos.</p>
             </div>
             <div class="card">
-                <img src="cochabamba/cliza.png" alt="cliza">
+                <img id="open-popupd" src="cochabamba/cliza.png" alt="cliza">
                 <h4>Cliza</h4>
                 <p>Cliza es una pequeña ciudad y un municipio de Bolivia.</p>
             </div>
             <div class="card">
-                <img src="cochabamba/punata.png" alt="punata">
+                <img id="open-popupt" src="cochabamba/punata.png" alt="punata">
                 <h4>Punata</h4>
                 <p>Capital de la provincia de Punata en el departamento de Cochabamba.</p>
             </div>
             <div class="card">
-                <img src="cochabamba/tarata.png" alt="tarata">
+                <img id="open-popupc" src="cochabamba/tarata.png" alt="tarata">
                 <h4>Tarata</h4>
                 <p>Capital de la primera sección municipal, conocida como la «Villa Colonial».</p>
             </div>
         </div>
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <a href="#" id="close-popup" class="close-popup"><i class="icon-cancel"></i></a>
+                <div class="information"></div>
+            </div>
+        </div>
     </main>
     <footer>
+        <script src="js/popup.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="js/logo.js"></script>
         <div class="foot">
