@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Paz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medium_view.css">
+    <link rel="stylesheet" type="text/css" href="css/tiwanaku.css">
+    <link rel="stylesheet" href="css/small_view.css">
+    <link rel="stylesheet" type="text/css" href="css/logo.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel = "stylesheet" href = "fonts/fontello-450542f5/fontello-450542f5/css/fontello.css">
+    <link rel="icon" type="image/png" href="">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="container logo-nav-container">
+                <div class="logo-container">
+                    <div class="div-img hidden">
+                        <img class="logo" src="images/logo.jpg" alt="Foto6">
+                        <div class="overlay"></div>
+                        <div class="text">Welcome</div>
+                    </div>
+                </div>
+                <span class="menu-icon">ver menu</span>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="laPaz.html">La Paz</a></li>
+                    <li><a href="cochabamba.html">Cochabamba</a></li>
+                    <li><a href="santaCruz.html">Santa Cruz</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="title">La Paz</h1>
+        <p>La Paz, en Bolivia, es la capital administrativa más alta del mundo, ubicada en la meseta del Altiplano de los Andes a más de 3,500 m sobre el nivel del mar.
+            Se extiende hasta la ciudad de El Alto en las zonas altas, con el monte nevado Illimani de fondo, con 6,438 m de altura. 
+            Se puede acceder al espectacular entorno de la ciudad a través del sistema de teleférico de la ciudad llamado Mi Teleférico.</p>    
+        <div class="weather">
+                <h3>La temperatura actual es: <span id="cc-temp"></span>&deg; C <img id="cc-img"></h3>
+                <script src="js/weather-lapaz.js"></script>
+        </div>
+        <h3>Ingresa a una de estas imágenes y descubre más acerca de los lugares turísticos de La Paz.</h3>
+        <div class="container_img">
+            <div class="card">
+                <img src="la Paz/copacabana.png" alt="copacabana">
+                <h4>Copacabana</h4>
+                <p>Pequeña provincia de La Paz que se encuentra al rededor del lago Titicaca.</p>
+            </div>
+            <div class="card">
+                <img src="la Paz/chacaltaya.png" alt="chacaltaya">
+                <h4>Chacaltaya</h4>
+                <p>Es una montaña localizada en la cordillera de los Andes.</p>
+            </div>
+            <div class="card">
+                <img src="la Paz/la_paz.png" alt="laPaz">
+                <h4>Nuestra Señora De La Paz</h4>
+                <p>Provinicia central de la ciudad de La Paz.</p>
+            </div>
+            <div class="card">
+                <img id="open-popup" src="la Paz/PUESTA _DEL_SOL.png" alt="tiwanaku">
+                <h4>Tiwanaku</h4>
+                <p>Ruinas de una cultura Pre-Hispánica.</p>
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <a href="#" id="close-popup" class="close-popup"><i class="icon-cancel"></i></a>
+                <div class="information"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="js/popup.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/logo.js"></script>
+        <div class="foot">
+            <script src="js/time.js"></script>
+            <br>&copy;2019 Bryan Magne & Bernardo Reque - Location: Bolivia
+        </div>
+    </footer>
+</body>
+</html>

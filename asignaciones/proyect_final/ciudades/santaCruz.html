@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Santa Cruz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medium_view.css">
+    <link rel="stylesheet" type="text/css" href="css/tiwanaku.css">
+    <link rel="stylesheet" href="css/small_view.css">
+    <link rel="stylesheet" type="text/css" href="css/logo.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel = "stylesheet" href = "fonts/fontello-450542f5/fontello-450542f5/css/fontello.css">
+    <link rel="icon" type="image/png" href="">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="container logo-nav-container">
+                <div class="logo-container">
+                    <div class="div-img hidden">
+                        <img class="logo" src="images/logo.jpg" alt="Foto6">
+                        <div class="overlay"></div>
+                        <div class="text">Welcome</div>
+                    </div>
+                </div>
+                <span class="menu-icon">ver menu</span>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="laPaz.html">La Paz</a></li>
+                    <li><a href="cochabamba.html">Cochabamba</a></li>
+                    <li><a href="santaCruz.html">Santa Cruz</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="title">Santa Cruz</h1>
+        <p>Santa Cruz de la Sierra es el centro comercial de Bolivia y la ciudad capital del departamento de Santa Cruz.
+           Se ubica sobre el río Piraí, en las zonas bajas tropicales al este de los Andes. 
+           La fundaron los españoles en el siglo XVI y actualmente es un núcleo cosmopolita con museos, restaurantes y discotecas. 
+           El casco histórico tiene en su centro la Catedral Metropolitana de ladrillo rosa en la Plaza 24 de septiembre, la plaza central.
+        </p>    
+        <div class="weather">
+                <h3>La temperatura actual es: <span id="cc-temp"></span>&deg; C <img id="cc-img"></h3>
+                <script src="js/weather-santacruz.js"></script>
+        </div>
+        <h3>Ingresa a una de estas imágenes y descubre más acerca de los lugares turísticos de La Paz.</h3>
+        <div class="container_img">
+            <div class="card">
+                <img src="santa cruz/arenales.png" alt="arenales">
+                <h4>Arenales</h4>
+                <p>Constituye uno de los atractivos turísticos de Santa Cruz más grandes.</p>
+            </div>
+            <div class="card">
+                <img src="santa cruz/cabañas.png" alt="cabañas">
+                <h4>Cabañas</h4>
+                <p>Muy cerca de la zona urbana, ingresando por la avenida Roca y Coronado.</p>
+            </div>
+            <div class="card">
+                <img src="santa cruz/cotoca.png" alt="cotoca">
+                <h4>Cotoca</h4>
+                <p>Cotoca es un municipio del Departamento de Santa Cruz</p>
+            </div>
+            <div class="card">
+                <img id="open-popup" src="santa cruz/mariposario.png" alt="mariposario">
+                <h4>Mariposario</h4>
+                <p>Centro de cría de mariposas.</p>
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <a href="#" id="close-popup" class="close-popup"><i class="icon-cancel"></i></a>
+                <div class="information"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="js/popup.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/logo.js"></script>
+        <div class="foot">
+            <script src="js/time.js"></script>
+            <br>&copy;2019 Bryan Magne & Bernardo Reque - Location: Bolivia
+        </div>
+    </footer>
+</body>
+</html>

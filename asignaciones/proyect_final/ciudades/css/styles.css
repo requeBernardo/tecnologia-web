@@ -1,0 +1,105 @@
+body{
+    font-family: georgia, times, serif;
+    color: #1F3C88;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    background: #1E90FF;
+}
+
+#banner img{
+    margin-top: 110px;
+    height: 100%;
+    width:100%;
+}
+
+.weather{
+    color: #000000;
+}
+
+h3{
+    color: #000000;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    color: #000000;
+}
+
+p{
+    margin-bottom: 1.6em;
+    color: #000000;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.navigation{
+    background: #000080;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+.header a{
+    color: #CEDDEF;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+    /*z-index: 1000;*/
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #5893D4;
+}
+
+.main{
+    padding-top: 12rem;
+    margin-bottom: 100px;
+}
+
+.foot{
+    background: #000080;
+    color: white;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
