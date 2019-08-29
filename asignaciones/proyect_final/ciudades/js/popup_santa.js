@@ -2,9 +2,9 @@ var OpenPopUp = document.getElementById("open-popup"),
     overlay = document.getElementById("overlay"),
     popup = document.getElementById("popup"),
     closePopup = document.getElementById("close-popup");
-var requestURL = 'https://magne754.github.io/proyecto/ciudades/JOSN/tiwanaku.json';
+var requestURL = 'https://magne754.github.io/proyecto/ciudades/JOSN/santa_cruz.json';
 var request = new XMLHttpRequest();
-var information = document.querySelector('section');
+var information = document.querySelector('section');;
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
@@ -30,6 +30,7 @@ function showplace(jsonObj,a) {
 
         information.appendChild(myArticle);
         }
+
         
     }
 }
@@ -37,29 +38,29 @@ openpopupu.addEventListener('click', function(){
     var lugar = request.response;
     request.onload = lugar;
     overlay.classList.add('active');
-    showplace(lugar, 'Copacabana');
+    showplace(lugar, 'Lomas de Arena');
 });
 openpopupd.addEventListener('click', function(){
     var lugar = request.response;
     request.onload = lugar;
     overlay.classList.add('active');
-    showplace(lugar, 'Chacaltaya');
+    showplace(lugar, 'cabañas del Rio pirai');
 });
 openpopupt.addEventListener('click', function(){
     var lugar = request.response;
     request.onload = lugar;
     overlay.classList.add('active');
-    showplace(lugar, 'Nuestra señora de la paz');
+    showplace(lugar, 'Cotoca');
 });
 openpopupc.addEventListener('click', function(){
     var lugar = request.response;
     request.onload = lugar;
     overlay.classList.add('active');
-    showplace(lugar, 'Tiwanaku');
+    showplace(lugar, 'Mariposario');
 });
 
 
-closepopup.addEventListener('click', function(){
+closePopup.addEventListener('click', function(){
     document.querySelector('section').innerHTML='';
     overlay.classList.remove('active')
 });

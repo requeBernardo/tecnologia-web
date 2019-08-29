@@ -1,0 +1,24 @@
+{
+    "places": [
+        {
+            "city": "Cochabamba",
+            "place": "Cliza",
+            "description": "Este Municipio se ha convertido en un centro comercial dinámico, referente del valle alto, con un mercado atractivo y ordenado donde no pasa inadvertido el tradicional plato “pichón a la braza” también se puede encontrar productos típicos de la zona como tutumas, pailas de bronce, cerámica de Huayculi y otros. La realización anual de la Feria del Pichón revitaliza la identidad propia del municipio."
+        },
+        {
+            "city": "Cochabamba",
+            "place": "Punata",
+            "description": "Este pequeño centro urbano también conocido como la “Perla del Valle”, se encuentra ubicada en la zona del Valle Alto del departamento de Cochabamba, al sudoeste de la ciudad, a una hora de viaje desde el Cercado. Posee un clima templado en verano y húmedo en invierno."
+        },
+        {
+            "city": "Cochabamba",
+            "place": "Tarata",
+            "description": "Tarata, ciudad colonial del Valle Alto, se jacta de nombrarse dos veces la “Capital de la República”, en razón a que estos terruños emergieron dos ex presidentes Mariano Melgarejo y René Barrientos Ortuño, de los cuales aún permanecen sus casas como la del notable tarateño e independentista Esteban Arce. Junto a estos notables, en la época Republicana residía la más alta clase social de la región"
+        },
+        {
+            "city": "Cochabamba",
+            "place": "Arani",
+            "description": "Pueblo de origen colonial, forma parte del extenso valle alto, se levanta al pie del cerro Arani, sus construcciones coloniales le dan una armonía singular al pueblo de antaño. Uno de sus atractivos más importantes, es el Santuario de la Virgen La Bella, la cual fue declarada Monumento Nacional en 1939, por la extraordinaria arquitectura de estilo Barroco Mestizo"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "places": [
+        {
+            "city": "Santa Cruz",
+            "place": "Lomas de Arena",
+            "description": "El Parque Regional Lomas de Arena, es un área protegida de Bolivia, ubicada a 12 kilómetros sureste de la ciudad de Santa Cruz de la Sierra, es uno de los puntos turísticos más visitado de la región."
+        },
+        {
+            "city": "Santa Cruz",
+            "place": "cabañas del Rio pirai",
+            "description": "Muy cerca de la zona urbana, ingresando por la avenida Roca y Coronado, se llega a las playas del río Piraí, en la que en sus orillas se encuentran las cabañas que ofrecen para degustar, platos de comida típica cruceña, como el majadito, patasca y locro, entre otros; además de los sabrosos “horneaos”, ideales para acompañar el café de la tarde."
+        },
+        {
+            "city": "Santa Cruz",
+            "place": "Mariposario",
+            "description": "Biocentro Guembé es un paraíso natural de 24 hectáreas, rodeado de plantas exóticas, bosques exuberantes y animales propios de la región. Es un lugar de plena armonía entre el hombre y la naturaleza, en el que encontrará una hermosa variedad de flora y fauna en su hábitat natural."
+        },
+        {
+            "city": "Santa Cruz",
+            "place": "Cotoca",
+            "description": "Está ubicada a solo 20 kilómetros al este de la ciudad de Santa Cruz; un pequeño pueblo pintoresco llamado Cotoca. Cotoca ocupa un lugar especial entre los Cruceños porque es el hogar de la Virgen de Cotoca quien es la patrona del Departamento de Santa Cruz. En 2003, Cotoca fue declarada Patrimonio Cultural y Religioso de Bolivia."
+        }
+    ]
+}
