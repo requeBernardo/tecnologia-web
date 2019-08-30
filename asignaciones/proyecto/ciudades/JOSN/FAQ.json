@@ -1,0 +1,16 @@
+{
+    "faq":[
+        {
+            "pregunta": "¿Que puede ofrecerme esta web?",
+            "respuesta": "Esta página aporta en el conocimiento de los lugares turísticos de bolivia con el fin de mostrar los citios más populares de los departamentos de Bolivia."
+        },
+        {
+            "pregunta": "¿Tiene algún costo?",
+            "respuesta": "Esta página está hecha sin fines de lucro, es usada para dar información."
+        },
+        {
+            "pregunta": "¿En qué puede beneficiarme esta página?",
+            "respuesta": "Esta página tiene seleccionada a lugares bastante populares de dichos departamentos lo que significa que mostramos lugares bastante confiables."
+        }
+    ]
+}
