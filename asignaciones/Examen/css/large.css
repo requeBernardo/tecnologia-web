@@ -1,0 +1,55 @@
+.navigation{
+    background: rgba(25, 200, 0);
+    color: white;
+    padding: 2rem 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: block;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: fixed;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: rgba(25, 200, 89);
+}
+
+.text{
+    background-color: darkgreen;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.menu{
+    display: none;
+}
+body{
+    text-align: center;
+    margin: 20px auto;
+}
+
+table{
+    text-align: center;
+    margin: 20px auto;
+}
+article{
+    background-color: aqua; 
+}
+
+footer{
+    background-color: darkgreen;
+}
